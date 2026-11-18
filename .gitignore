@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Model artifacts (large binaries — regenerate with: python backend.py)
+models/
+
+# Generated plots
+*.png
+*.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
