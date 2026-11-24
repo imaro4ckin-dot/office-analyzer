@@ -354,7 +354,7 @@ def train_logistic_regression(X_train, y_train) -> LogisticRegression:
     """Fit and save the baseline Logistic Regression model."""
     lr = LogisticRegression(
         max_iter=1000, C=1.0,
-        solver="lbfgs", multi_class="multinomial",
+        solver="lbfgs",
         random_state=42,
     )
     lr.fit(X_train, y_train)
